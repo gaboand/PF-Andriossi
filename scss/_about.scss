@@ -1,0 +1,211 @@
+
+.carrusel__container{
+    padding: 70px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   .carousel{
+        display: flex;
+        align-items: center;
+        max-width: 200px;
+        max-height: 300px;
+        width: 80%;
+    }
+}
+
+.articulo__detalle{
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    h1{
+        font-size: 22px;
+    }
+}
+
+.articulo__detalle{
+    h2{
+        font-size: 18px;
+    }
+}
+
+.articulo__detalle{    
+    h3{
+        font-size: 16px;
+    }
+}
+
+.articulo__comprar{
+    border: none;
+    background-color: $color-secondary;
+    width: 200px;
+    height: 35px;
+    color: $color-font-light;
+    text-align: center;
+}
+.articulo__detalle--secciones{
+    text-align: center;
+}
+
+.colores, .talles{
+    padding: 0; 
+}
+
+.articulo__detalle-texto{
+    width: 250px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+@media (min-width: $media-md){
+
+    .carrusel__container{
+        padding: 80px 0px 20px;
+        flex-direction: row;
+        .carousel{
+            max-width: 300px;
+            max-height: 500px;
+            width: 100%;
+    }
+ }    
+
+.articulo__detalle{
+    padding: 30px 30px;
+     h1{
+        font-size: 25px;
+    }
+}
+
+.articulo__detalle{
+    h2{
+        font-size: 22px;
+    }
+}
+
+.articulo__detalle{    
+        h3{
+        font-size: 18px;
+    
+    }
+}
+
+.articulo__detalle-texto{
+    width: 400px;
+    font-size: 16px;
+}
+}
+
+@media (min-width: $media-lg){
+
+    .carrusel__container{
+        .carousel{
+            max-width: 400px;
+            max-height: 600px;
+            width: 100%;
+    }
+ }    
+
+ 
+.articulo__detalle{
+    gap: 20px;
+     h1{
+        font-size: 30px;
+    }
+}
+
+.articulo__detalle{
+    h2{
+        font-size: 25px;
+    }
+}
+.articulo__detalle-texto{
+    font-size: 18px;
+    width: 500px;
+}
+}
+
+// sitemap
+
+.sitemap__container{
+    padding: 90px 25px 0;
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+
+.sitemap__secciones{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px 50px 20px;
+    a{
+        color: $color-font-dark;
+        font-size: 18px;
+    }
+    h3{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+.sitemap__redes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+// Maps para redes sociales en sitemap //
+
+$redes-sociales: (
+  facebook: #0000ff,
+  instagram: #ff0000,
+  tiktok: #747474,
+  snapchat: #eeff00,
+);
+
+@each $red-social, $value in $redes-sociales {
+    .icon__#{$red-social} {
+      background-color: $value;
+      width: 100px;
+      height: 30px;
+      padding: 5px;
+      color: $color-font-dark;
+      text-decoration: none;
+      text-align:center ;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 50%;
+    }
+  }
+
+//   Mixin para campos de footer suscripción y carrito//
+
+@mixin field-format ($param1, $param2) {
+    text-align: center;
+	background-color: $param1;
+    color: $param2;
+	border: none;
+	border-radius: 5px;
+}
+
+.name {
+    @include field-format(#a09e9e,#070707);
+}
+
+.phone {
+    @include field-format (#a09e9e,#070707);
+}
+
+.mail {
+    @include field-format(#a09e9e,#070707);
+}
+
+.carrito__campos{
+    @include field-format (#454545,#fafafa);
+}

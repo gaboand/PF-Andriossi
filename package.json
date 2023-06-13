@@ -1,0 +1,11 @@
+{
+  "name": "avances_bu",
+  "version": "1.0.0",
+  "description": "avances_bu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Andriossi",
+  "license": "ISC"
+}
