@@ -50,6 +50,7 @@
         <div class="datos">Dirección:  Calle 1235 - Barrio Tel: 11-9999-9999  info@voila.com.ar</div>
     </header>
     <main class="carrito__principal">
+        <div id="carrito_info"><span id="contador_productos">0</span></div>
         <h1 class="carrito__titulo">Carrito de Compras</h1>
         <article class="carrito__beneficios">
             <div class="carrito__beneficios-1">
@@ -57,7 +58,7 @@
                     <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
                     </svg>
                 <h4 class="carrito__beneficios--title">Envíos a todo el país</h4>
-                <p>Los envíos se realizan en un plazo de 3 a 10 días hábiles.   </p>
+                <p>Los envíos o retiro en centros PickUp, se realizan en un plazo de 3 a 7 días.</p>
             </div>
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" class="bi bi-wallet2" viewBox="0 0 16 16">
@@ -77,30 +78,26 @@
 
         <section class="carrito__container">
             <div class="carrito__eleccion">
-                <div class="carrito__item">
-                    <img class="carrito__foto" src="../images/producto7.webp" alt="foto del producto elegido">
-                    <P class="carrito__nombre">TAPADO BAHIA</P>
-                    <P class="carrito__precio">$ 57.900</P>
-                </div>
-                <div class="carrito__item">
-                    <img class="carrito__foto" src="../images/producto6.webp" alt="foto del producto elegido">
-                    <P class="carrito__nombre">TAPADO ICE</P>
-                    <P class="carrito__precio">$ 79.500</P> 
+                <main class="container">
+                    <ul id="cart">
+                        
+                    </ul>
+                    <p class="pie_de_carrito">Total a pagar: <span id="total-monto">$0.00</span></p>
+                </main>
+                <div class="btns_carrito">
+                    <button id="btn_vaciar">Vaciar Carrito</button>
+                    <a href="pagos.html" class="carrito__botonpagos" id="boton-pago" disabled>Pagar</a>
                 </div>
             </div>
-            <div class="carrito__formularioPago">
-                <form class="carrito__compra" action="compra">
-                    <div class="carrito__datospago">
-                        <input class="carrito__campos" type="text" placeholder="Nombre y Apellido" style="width: 250px; height:25px">
-                        <input class="carrito__campos" type="text" placeholder="Dirección" style="width: 250px; height:25px">
-                        <input class="carrito__campos" type="text" placeholder="Email" style="width: 250px; height:25px">
-                    </div>
-                    <div class="carrito__botonpago" >
-                        <button class="carrito__botonpagos" type="submit">Hacer Pedido</button>
-                    </div>
-                </form>
-            </div> 
+            <div class="pickup_container">
+                <h5 class="titulo_pickup">Seleccione el lugar de retiro</h5>
+                <select id="centros_pickup_selector">
+                    <option value="all">Centros Pickup</option>
+                </select>
+                <div id="centros_pickup_detalle"></div>
+            </div>
         </section>
+        
      </main>
     <footer class="footer-index">
         <div class="datos-contacto">
@@ -135,5 +132,6 @@
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/carritoScript.js"></script>
 </body>
 </html>

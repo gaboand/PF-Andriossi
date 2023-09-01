@@ -1,0 +1,200 @@
+{
+    "pickup": [
+        {   
+            "id": "1",
+            "sucursal": "Abasto",
+            "direccion": "Av. Corrientes n° 3702",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id": "2",
+            "sucursal": "Almagro",
+            "direccion": "Av. Medrano n° 66",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id": "3",
+            "sucursal": "Av. de Mayo",
+            "direccion": "Av. De Mayo n° 570",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "4",
+            "sucursal": "Barracas",
+            "direccion": "Feijoo Jose Aaron n° 575",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "5",
+            "sucursal": "Barrio Norte",
+            "direccion": "Av. Pueyrredon n° 1352",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "6",
+            "sucursal": "Belgrano",
+            "direccion": "Av. Cabildo n° 2349",
+            "localidad": "CABA",
+            "horario": "lun a vie 10.00 a 18.00 sab 09.00 a 14.00"
+        },
+        {
+            "id" : "7",
+            "sucursal": "Caballto",
+            "direccion": "Av. Rivadavia n° 5337",
+            "localidad": "CABA",
+            "horario": "lun a vie 10.00 a 18.00"
+        },
+        {
+            "id" : "8",
+            "sucursal": "Centro",
+            "direccion": "Peron n° 2536",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "9",
+            "sucursal": "Chacarita",
+            "direccion": "Av. Lacroze Federico n° 4164",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "10",
+            "sucursal": "Coghlan",
+            "direccion": "Av. Monroe n° 3381",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "11",
+            "sucursal": "Congreso",
+            "direccion": "Av. Callao n° 131",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "12",
+            "sucursal": "Flores",
+            "direccion": "Gral. Artigas n° 40",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "13",
+            "sucursal": "Liniers",
+            "direccion": "Av. Rivadavia n° 11256",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "14",
+            "sucursal": "Mataderos",
+            "direccion": "Av. Alberdi n° 5924",
+            "localidad": "CABA",
+            "horario": "lun a vie 10.00 a 18.00 sab 09.00 a 14.00"
+        },
+        {
+            "id" : "15",
+            "sucursal": "Nuñez",
+            "direccion": "Av. cabildo n° 4576",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "16",
+            "sucursal": "Palermo",
+            "direccion": "Av. Crnel. Diaz n° 2190",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "17",
+            "sucursal": "Paternal",
+            "direccion": "Av. San Martin n° 2710",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "18",
+            "sucursal": "Plaza Las Heras",
+            "direccion": "Laprida n° 2128",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "19",
+            "sucursal": "San Telmo",
+            "direccion": "Bernardo de Yrigoyen n° 698",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"
+        },
+        {
+            "id" : "20",
+            "sucursal": "Villa Crespo",
+            "direccion": "Av. Scalabrini Ortiz n° 176",
+            "localidad": "CABA",
+            "horario": "lun a vie 11.00 a 18.00"            
+        },
+        {
+            "id" : "21",
+            "sucursal": "Villa del Parque",
+            "direccion": "Helguera n° 2901",
+            "localidad": "CABA",
+            "horario": "lun a vie 09.00 a 17.00"
+        },
+        {
+            "id" : "22",
+            "sucursal": "Avellaneda",
+            "direccion": "Av. Belgrano n° 390",
+            "localidad": "BS AS",
+            "horario": "lun a vie 10.00 a 18.00"
+        },
+        {
+            "id" : "23",
+            "sucursal": "San Isidro",
+            "direccion": "Alsina n° 102",
+            "localidad": "BS AS",
+            "horario": "lun a vie 10.00 a 18.00"
+        },
+        {
+            "id" : "24",
+            "sucursal": "San Martin",
+            "direccion": "Manuel Campos n° 102",
+            "localidad": "BS AS",
+            "horario": "lun a vie 10.00 a 18.00"
+        },
+        {
+            "id" : "25",
+            "sucursal": "La Plata",
+            "direccion": "Av. 51 n° 452",
+            "localidad": "BS AS",
+            "horario": "lun a vie 09.00 a 17.00"
+        },
+        {
+            "id" : "26",
+            "sucursal": "Cordoba",
+            "direccion": "Colón n° 210",
+            "localidad": "Córdoba",
+            "horario": "lun a vie 09.00 a 17.00"
+        },
+        {
+            "id": "27",
+            "sucursal": "Santa Fe",
+            "direccion": "Rivadavia n° 2610",
+            "localidad": "Santa Fe",
+            "horario": "lun a vie 08.00 a 15.00"
+        },
+        {
+            "id": "28",
+            "sucursal": "Mendoza",
+            "direccion": "Av. Gral San Martin n° 678",
+            "localidad": "Santa Fe",
+            "horario": "lun a vie 08.00 a 18.00 sab 09.00 A 14.00"
+        }
+]
+}
